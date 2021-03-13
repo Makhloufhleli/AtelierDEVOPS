@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Bibliothèque.jnlp">
+  <information>
+    <title>Bibliothèque</title>
+    <vendor>Makhlouf Helali</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Bibliothèque.jar" size="552942" download="eager" />
+    <jar href="lib\ConceptionDAO.jar" size="9657" download="eager" />
+    <jar href="lib\DAOImplements.jar" size="9737" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="bibliothèque.Bibliothèque"  name="Bibliothèque" />
+  <update check="always"/>
+</jnlp>
